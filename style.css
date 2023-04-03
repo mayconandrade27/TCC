@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  border: none;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(228, 228, 228);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding-top: 3rem;
+  align-items: center;
+  background-color: red;
+}
+header h1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.logo img {
+  width: 75px;
+  height: auto;
+  margin-left: 5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.C-icone {
+  margin-right: 5rem;
+  margin-right: 2rem;
+}
+
+.Icone ion-icon {
+  color: #ffffff;
+  font-size: 3rem;
+  cursor: pointer;
+}
+ul li a:hover {
+  text-transform: capitalize;
+  color: rgb(red, green, blue);
+  border-bottom: solid 1px;
+}
+
+.C-title {
+  background-image: url(baner.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 300px;
+  text-align: center;
+}
+
+.C-title h1 {
+  color: #fffffff3;
+  font-size: 7rem;
+  padding-top: 70px;
+}
+
+.C-title p {
+  color: #000000;
+}
+.geral {
+  background-image: url(madeira1.jpg);
+  background-size: cover;
+}
+
+.geral h1 {
+  color: #ffffffef;
+  font-size: 4.8rem;
+  text-align: center;
+  padding-top: 30px;
+}
+.img-setor img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.produtos h1 {
+  padding-top: 10rem;
+  text-align: center;
+  align-items: center;
+  color: #fffffff3;
+  font-size: 7rem;
+}
+.produtos {
+  background-image: url(madeira4.jpg);
+  background-size: cover;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.lista-img {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 4rem;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  width: 25rem;
+  height: 23rem;
+}
+
+.lista-img img {
+  width: 50%;
+  height: 50%;
+}
+
+.lista-img h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.lista-img p {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.lista-img button {
+  margin-top: 1rem;
+  background-color: rgb(22, 235, 50);
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s all;
+}
+
+#lista {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#lista2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
